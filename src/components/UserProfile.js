@@ -49,6 +49,7 @@ class UserProfile extends Component {
         </List>
         {isBio ? <p>{bio}</p> : null}
       </Card>
+      //TODO ADD BACK BUTTON
     )
   }
 }

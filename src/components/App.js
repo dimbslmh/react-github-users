@@ -20,15 +20,15 @@ class App extends Component {
           <TopAppBarFixedAdjust>
             <Grid>
               <Row>
-                <Cell desktopColumns={3} tabletColumns={3} />
-                <Cell desktopColumns={6} tabletColumns={6}>
+                <Cell desktopColumns={3} tabletColumns={2} />
+                <Cell desktopColumns={6} tabletColumns={8}>
                   <Switch>
                     <Route exact path="/" component={Home} />
                     <Route path="/search" component={UserList} />
                     <Route path="/:username" component={UserProfile} />
                   </Switch>
                 </Cell>
-                <Cell desktopColumns={3} tabletColumns={3} />
+                <Cell desktopColumns={3} tabletColumns={2} />
               </Row>
             </Grid>
           </TopAppBarFixedAdjust>

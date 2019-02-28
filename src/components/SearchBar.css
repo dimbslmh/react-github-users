@@ -1,0 +1,17 @@
+.mdc-text-field {
+    height: 36px;
+    border-radius: 4px;
+}
+
+.mdc-text-field__input {
+    padding: 6px;
+    border-bottom: 0;
+}
+
+.mdc-text-field--with-trailing-icon .mdc-text-field__icon {
+    bottom: 6px;
+}
+
+.mdc-top-app-bar .mdc-line-ripple {
+    display: none;
+}

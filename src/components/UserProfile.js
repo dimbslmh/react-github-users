@@ -1,6 +1,5 @@
 import '@material/react-card/dist/card.css'
 import '@material/react-list/dist/list.css'
-import '@material/react-button/dist/button.css'
 
 import List, {
   ListItem,

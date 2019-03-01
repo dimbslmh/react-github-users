@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TODOs
+
+- Add Pagination Search Results
+- Return to Search Results from User Profile (Back Button)
+
 ## Available Scripts
 
 In the project directory, you can run:
